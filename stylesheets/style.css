@@ -1,0 +1,159 @@
+:root{
+    --theme-primary-color: #fdaf40;
+}
+
+.theme-primary-text-color{
+    color: var(--theme-primary-color);
+}
+
+.theme-primary-bg-color{
+    background-color: var(--theme-primary-color);
+}
+
+p{
+    padding: 0;
+}
+
+.nav-link{
+    color: black;
+}
+
+
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--theme-primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.hero-gradient{
+  background-image: linear-gradient(to right, white 50%, var(--theme-primary-color) 100%);
+}
+
+.btn-1:hover{
+    background-color: darkslategrey;
+    color: white;
+    transition: 0.3s;
+}
+
+.news-height{
+    max-height: 450px;
+}
+
+.report-card-1-color{
+    background-color: #bbeaf2;
+}
+.report-card-2-color{
+    background-color: #9fbef7;
+}
+.report-card-3-color{
+    background-color: #bbeaf2;
+}
+.report-card-4-color{
+    background-color: #c8dee9;
+}
+.report-card-5-color{
+    background-color: #7ed0e6;
+}
+.report-card-6-color{
+    background-color: #bbeaf2;
+}
+
+.btn-reports{
+    border: 1px solid var(--theme-primary-color);
+    background-color: white;
+    color: var(--theme-primary-color);
+}
+
+.btn-reports:hover{
+    transition: 0.3s;
+    background-color: var(--theme-primary-color);
+    color: white;
+}
+
+.invest-card-min-height{
+    min-height: 353.5px !important;
+}
+
+.invest-card-1-color{
+    background-color: #2d4cff;
+}
+.invest-card-2-color{
+    background-color: #ffdec4;
+}
+.invest-card-3-color{
+    background-color: #b3f1ff;
+}
+
+.btn-2:hover{
+    background-color: var(--theme-primary-color) !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+.progress{
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+.progress-1{
+    width: 90%;
+}
+.progress-2{
+    width: 52%;
+}
+.progress-3{
+    width: 46%;
+}
+.progress-4{
+    width: 39%;
+}
+.progress-5{
+    width: 34%;
+}
+.progress-6{
+    width: 30%;
+}
+.progress-7{
+    width: 26%;
+}
+.progress-8{
+    width: 21%;
+}
+.progress-9{
+    width: 18%;
+}
+.progress-10{
+    width: 15%;
+}
+
+.progress-bar-1{
+    background-color: #b5cc18;
+}
+.progress-bar-2{
+    background-color: #4d82b7;
+}
+.progress-bar-3{
+    background-color: #e5857f;
+}
+.progress-bar-4{
+    background-color: #bceaef;
+}
+.progress-bar-5{
+    background-color: #a6c1e6;
+}
+.progress-bar-6{
+    background-color: #d9c6ef;
+}
+.progress-bar-7{
+    background-color: #b9bcc6;
+}
+.progress-bar-8{
+    background-color: #59c297;
+}
+.progress-bar-9{
+    background-color: #dcb453;
+}
+.progress-bar-10{
+    background-color: #676fd7;
+}
